@@ -1,0 +1,12 @@
+# CPU-only PyTorch wheels (much smaller than the default CUDA build; required for Streamlit Community Cloud)
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+streamlit>=1.45.0
+ultralytics>=8.4.216
+torch>=2.2.0
+torchvision>=0.17.0
+opencv-python-headless>=4.8.0
+pillow>=10.0.0
+pandas>=2.0.0
+numpy>=1.24.0
+plotly>=5.18.0
